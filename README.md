@@ -1,5 +1,5 @@
 # Hello Name
-> Print names with HelloSayer and hello_name
+> Print names with HelloSayer class using say() method
 
 
 ## Install
@@ -10,7 +10,7 @@
 
 #### from hello_name.core import *
 
-`Now use either HelloSayer('a').say`
+`Now use HelloSayer('a').say`
 
 ## Examples
 
