@@ -1,0 +1,32 @@
+package:
+  name: hello_name
+  version: 0.0.1
+source:
+  sha256: 65e827376f85ca5ea6a6de847586ab69adba9586578c37c597d192de3196fe2e
+  url: https://files.pythonhosted.org/packages/be/55/73bd371283c09776cc814fa10039fe33acc042af80915cc830cfb1631538/hello_name-0.0.1.tar.gz
+about:
+  dev_url: https://PrathamBapat.github.io
+  doc_url: https://PrathamBapat.github.io
+  home: https://PrathamBapat.github.io
+  license: Apache Software
+  license_family: APACHE
+  summary: python package to print name with hello
+build:
+  noarch: python
+  number: '0'
+  script: '{{ PYTHON }} -m pip install . -vv'
+extra:
+  recipe-maintainers:
+  - PrathamBapat
+requirements:
+  host:
+  - pip
+  - python
+  - packaging
+  run:
+  - pip
+  - python
+  - packaging
+test:
+  imports:
+  - hello_name

@@ -1,5 +1,5 @@
 # Hello Name
-> Print names with hello
+> Print names with HelloSayer and hello_name
 
 
 ## Install
@@ -8,23 +8,11 @@
 
 ## How to use
 
-`Enter the name when calling the function hello_name`
+#### from hello_name.core import *
 
-`Enter the name when calling the class HelloSayer and then print it via say()`
-
+`Now use either HelloSayer('a').say`
 
 ## Examples
-
-```python
-hello_name('world')
-```
-
-
-
-
-    'hello world'
-
-
 
 ```python
 a = HelloSayer('a')
