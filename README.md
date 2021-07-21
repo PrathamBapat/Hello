@@ -8,7 +8,9 @@
 
 ## How to use
 
-`Enter the name when calling the function`
+`Enter the name when calling the function hello_name`
+
+`Enter the name when calling the class HelloSayer and then print it via say()`
 
 
 ## Examples
@@ -25,12 +27,13 @@ hello_name('world')
 
 
 ```python
-hello_name('mayesha')
+a = HelloSayer('a')
+a.say()
 ```
 
 
 
 
-    'hello mayesha'
+    'hello a'
 
 
